@@ -1,0 +1,22 @@
+body{
+    background-color: #212529;
+}
+
+.search_bar{
+    width: 50%;
+    margin: auto;
+    margin-top: 20vh;
+    padding: 10px;
+    background: #A3F7BF;
+    box-shadow: 0px 4px 116px #29A19C;
+    border-radius: 223px;
+}
+
+#main_search{
+    width: 100%;
+    border: none;
+    text-align: center;
+    background: none;
+    font-size: 40px;
+    font-family: 'Abel', sans-serif;
+}

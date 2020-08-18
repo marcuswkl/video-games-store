@@ -1,0 +1,22 @@
+#footer {
+    background-color: #435055;
+    color: #A3F7BF;
+}
+
+#footer-title {
+    padding: 1%;
+}
+
+#footer-links a {
+    text-decoration: none;
+    color: #A3F7BF;
+}
+
+#footer-social-links {
+
+}
+
+#copyright {
+    text-align: right;
+    padding: 1%;
+}

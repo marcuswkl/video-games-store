@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+* {
+    cursor: url("../Icons/cursor32.png") 7 7, auto;
+}
+
+body {
+    margin: 0px;
+    background-color: #191D21;
+    color: #A3F7BF;
+    font-family: 'Abel', sans-serif;
+}
+
+#index_title{
+    padding: 20px;
+    text-align: center;
+    font-size: 3vw;
+    animation: titleGlow 2s ease-in-out infinite alternate;
+}
+
+.slideshow-container {
+    margin: 0px auto;
+    max-width: 1000px;
+    position: relative;
+}
+
+.images {
+    display: none;
+}
+
+.bar {
+    height: 15px;
+    width: 75px;
+    margin: 0 10px;
+    background-color: #435055;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #A3F7BF;
+    box-shadow: 0px 0px 25px #29A19C;
+}
+
+.bar:hover {
+    background-color: #5f916f;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+#title {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.catalogue {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.game {
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.links {
+    transition: text-shadow 0.6s ease;
+    font-size: 27px;
+    position: relative;
+    text-align: center;
+}
+
+.links:hover {
+    text-shadow: 0 0 20px #A3F7BF, 0 0 40px #A3F7BF;
+}
+
+.image-links {
+    max-width: 352px;
+    max-height: 441px;
+    transition: box-shadow 0.6s ease;
+}
+
+.image-links, .slideshow {
+    max-width: 1280px;
+    max-height: 480px;
+    transition: box-shadow 0.6s ease;
+}
+
+.image-links:hover {
+    box-shadow: 0 0 20px #A3F7BF;
+}
+
+#upcoming-games {
+    margin: auto auto 150px auto;
+}
+
+.date-overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    overflow: hidden;
+    transition: 0.5s ease;
+    width: 352px;
+    height: 0px;
+    top: 10px;
+    left: 10px;
+    right: 0px;
+}
+
+.release-date{
+    white-space: nowrap; 
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    font-size: 35px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.upcoming {
+    max-width: 352px;
+    max-height: 441px;
+}
+
+.upcoming:hover .date-overlay{
+    height: 441px;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+.nav-header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10%;
+	box-sizing: border-box;
+	margin: 0;
+	height: 15vh;
+	background-color: #435055;
+}
+
+#index-link {
+	margin-right: auto;
+}
+
+.link-flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	width: auto;
+}
+
+a {
+	font-family: "Abel", sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+	color: #A0F4BE;
+	text-decoration: none;
+}
+
+.logo {
+	width: 12.629vw;
+	cursor: pointer;
+	margin-right: auto;
+}
+
+#sign-up {
+	cursor: pointer;
+	margin-right:2vw;
+}
+
+#login{
+	cursor: pointer;
+	margin-right:2vw;
+}
+
+#cart {
+	font-family: "Abel", sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+	color: #A0F4BE;
+	text-decoration: none;
+	padding: 9px 25px;
+	background-color: #29A19C;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+#cart:hover {
+	box-shadow: 0 0 20px #A3F7BF;
+}

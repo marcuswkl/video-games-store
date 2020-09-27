@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+* {
+    cursor: url("../Icons/cursor32.png") 7 7, auto;
+}
+
+body {
+    margin: 0px;
+    background-color: #191D21;
+    color: #A3F7BF;
+    font-family: 'Abel', sans-serif;
+}
+
+#add-game-table caption {
+    font-size: 2.5vw;
+    margin: 1.5vh 0vw 1vh 0vw;
+    -webkit-animation: titleGlow 1.5s ease-in-out infinite alternate;
+    -moz-animation: titleGlow 1.5s ease-in-out infinite alternate;
+    animation: titleGlow 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes titleGlow {
+    from {
+        text-shadow: 0 0 10px #A3F7BF, 0 0 20px #A3F7BF, 0 0 30px #A3F7BF, 0 0 40px #29A19C;
+    }
+    to {
+        text-shadow: 0 0 20px #29A19C, 0 0 30px #29A19C, 0 0 40px #29A19C;
+    }
+}
+
+
+#add-game-table {
+    margin: 1.5vh auto 5vh auto;
+}
+
+#add-game-table, #add-game-table th, #add-game-table td {
+    border: 1px solid #A3F7BF;
+    border-collapse: collapse;  
+    font-size: 1vw;
+}
+
+#add-game-table th, #add-game-table td {
+    padding: 10px;
+}
+
+#table-column-label {
+    width: 7vw;
+}
+
+#table-column-input {
+    width: 20vw;
+}
+
+#add-game-table input, #add-game-table textarea {
+    background-color: transparent;
+    color: #A3F7BF;
+    border: none;
+    font-size: 1vw;
+    font-family: 'Abel', sans-serif;
+    width: 100%;
+    outline: none;
+}
+
+#table-row-add {
+    text-align: center;
+    transition: box-shadow 0.5s ease;
+    cursor: pointer;
+}
+
+#table-row-add:hover {
+    box-shadow: 0 0 5px #A3F7BF, 0 0 10px #A3F7BF;
+}
+
+#add-game-table input[type=submit] {
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+::placeholder {
+    color:  #A3F7BF;
+    opacity: 0.5;
+  }

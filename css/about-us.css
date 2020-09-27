@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    cursor: url("../Icons/cursor32.png") 7 7, auto;
+}
+
+body {
+    margin: 0px;
+    background-color: #191D21;
+    color: #A3F7BF;
+    font-family: 'Abel', sans-serif;
+}
+
+#about-us-body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 22.5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-title{
+    margin: 5vh 0 5vh 0;
+    font-size: 4vw;
+    -webkit-animation: titleGlow 1.5s ease-in-out infinite alternate;
+    -moz-animation: titleGlow 1.5s ease-in-out infinite alternate;
+    animation: titleGlow 1.5s ease-in-out infinite alternate;
+}
+
+.sub{
+    font-size: 4vw;
+    margin: 3vh 0 5vh 0;
+}
+
+@-webkit-keyframes titleGlow {
+    from {
+        text-shadow: 0 0 10px #A3F7BF, 0 0 20px #A3F7BF, 0 0 30px #A3F7BF, 0 0 40px #29A19C;
+    }
+    to {
+        text-shadow: 0 0 20px #29A19C, 0 0 30px #29A19C, 0 0 40px #29A19C;
+    }
+}
+
+.about-us-img{
+    width: auto;
+    height: auto;
+    
+}
+
+.about-us-description{
+    text-align: justify;
+    font-size: 1.75vw;
+}
+
+.about-us-link{
+    text-decoration: underline;
+    font-size: 1.75vw;
+    transition: text-shadow 0.6s ease;
+}
+
+.about-us-link:hover{
+    text-shadow: 0 0 20px #A3F7BF, 0 0 40px #A3F7BF;
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+* {
+    cursor: url("../Icons/cursor32.png") 7 7, auto;
+}
+
+body {
+    margin: 0px;
+    background-color: #191D21;
+    color: #A3F7BF;
+    font-family: 'Abel', sans-serif;
+}
+
+#form_box {
+    padding: 50px 0px;
+    width: 450px;
+    margin: auto;
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 49.54321px;
+    line-height: 40px;
+}
+
+#SubmitBacon {
+    text-align: center;
+    border: 0;
+    background: transparent;
+}
+
+#title {
+    text-align: center;
+    -webkit-animation: titleGlow 1.5s ease-in-out infinite alternate;
+    -moz-animation: titleGlow 1.5s ease-in-out infinite alternate;
+    animation: titleGlow 1.5s ease-in-out infinite alternate;
+    font-size: 35px;
+}
+
+@-webkit-keyframes titleGlow {
+    from {
+        text-shadow: 0 0 10px #A3F7BF, 0 0 20px #A3F7BF, 0 0 30px #A3F7BF, 0 0 40px #29A19C;
+    }
+    to {
+        text-shadow: 0 0 20px #29A19C, 0 0 30px #29A19C, 0 0 40px #29A19C;
+    }
+}
+
+.input_field {
+    width: 434px;
+    margin: 40px 0px;
+    border: none;
+    font-size: 25px;
+    min-height: 52px;
+    background: #A3F7BF;
+    box-shadow: 0px 0px 25px #29A19C;
+    border-radius: 223px;
+    outline: none;
+    padding-left: 15px;
+    -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+    -moz-animation: glow 1.5s ease-in-out infinite alternate;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+#form_box {
+    width: 450px;
+    position: relative;
+    margin: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 40px;
+}
+
+.input_field {
+    width: 434px;
+    margin: 10px auto;
+    border: none;
+    font-size: 25px;
+    min-height: 52px;
+    background: #A3F7BF;
+    box-shadow: 0px 0px 25px #29A19C;
+    border-radius: 223px;
+    outline: none;
+    padding-left: 15px;
+    -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+    -moz-animation: glow 1.5s ease-in-out infinite alternate;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+.input_field:focus {
+    -webkit-animation: inputGlow 1.5s ease-in-out infinite alternate;
+    -moz-animation: inputGlow 1.5s ease-in-out infinite alternate;
+    animation: inputGlow 1.5s ease-in-out infinite alternate;
+}
+
+.text_area {
+    width: 434px;
+    margin: 10px auto;
+    border: none;
+    font-size: 25px;
+    min-height: 52px;
+    background: #A3F7BF;
+    box-shadow: 0px 0px 25px #29A19C;
+    border-radius: 25px;
+    outline: none;
+    padding: 15px;
+    -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+    -moz-animation: glow 1.5s ease-in-out infinite alternate;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+.text_area:focus {
+    -webkit-animation: inputGlow 1.5s ease-in-out infinite alternate;
+    -moz-animation: inputGlow 1.5s ease-in-out infinite alternate;
+    animation: inputGlow 1.5s ease-in-out infinite alternate;
+}
+
+::placeholder {
+    font-family: 'Abel', sans-serif;
+}
+
+#submit{
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    background: #A3F7BF;
+    border-radius: 223px;
+    transition: box-shadow 0.6s ease;
+    border: none;
+}
+
+#submit:hover{
+    box-shadow: 0 0 20px #29A19C;
+}
+
+#email{
+    display: none;
+}
+
+#question-css{
+    text-align: center;
+}

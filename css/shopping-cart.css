@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    cursor: url("../Icons/cursor32.png") 7 7, auto;
+}
+
+
+body {
+    font-family: 'Abel', sans-serif;
+    margin: 0px;
+    background-color: #191D21;
+    color: #A3F7BF;
+}
+
+#shopping-cart-body {
+    padding: 0% 25% 0% 25%;
+}
+
+#shopping-cart-title {
+    font-size: 1.25vw;
+}
+
+.shopping-cart-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 1% 5%;
+}
+
+.shopping-cart-item img {
+    width: 12%;
+    flex: 1 1 100px;
+}
+
+.shopping-cart-item-info {
+    width: 55%;
+    font-size: 1.25vw;
+    flex: 1 1 465px;
+    padding-left: 5%;
+}
+
+.shopping-cart-item-info p:nth-child(1) {
+    margin-top: 0%;
+}
+
+.shopping-cart-item-price {
+    display: inline;
+}
+
+.shopping-cart-item-quantity {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+    margin-right: 5%;
+    flex: 1 1 125px;
+}
+
+.shopping-cart-item-quantity button {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.25vw;
+    cursor: pointer;
+    outline: none;
+}
+
+.shopping-cart-item-quantity button:nth-child(1) {
+    font-size: 1.65vw;
+}
+
+.shopping-cart-item-quantity p {
+    background: none;
+    border: 2px solid #A3F7BF;
+    border-radius: 0.5vw;
+    padding: 5% 12%;
+    color: inherit;
+    font-size: 1.65vw;
+}
+
+.shopping-cart-delete-button {
+    color: #e01f0d;
+    align-self: flex-start;
+    background: none;
+    border: none;
+    font-size: 1.25vw;
+    flex: 1 1 20px;
+    cursor: pointer;
+    outline: none;
+    -webkit-animation: Xglow 1.5s ease-in-out infinite alternate;
+    -moz-animation: Xglow 1.5s ease-in-out infinite alternate;
+    animation: Xglow 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes Xglow {
+    from {
+        text-shadow: 0 0 10px #e01f0d, 0 0 20px #F5A9A2;
+    }
+    to {
+        text-shadow: 0 0 20px #E68783;
+    }
+}
+
+hr {
+    border-color: #A3F7BF;
+}
+
+#shopping-cart-total {
+    float: right;
+}
+
+#shopping-cart-total p:nth-child(1) {
+    font-size: 1vw;
+    margin-bottom: 0%;
+}
+
+#shopping-cart-total span{
+    font-size: 1.5vw;
+    margin-top: 0%;
+    margin-bottom: 15%;
+    font-weight: 700;
+}
+
+#shopping-cart-total p:nth-child(3) {
+    font-size: 1.5vw;
+    margin-top: 0%;
+    margin-bottom: 15%;
+    font-weight: 700;
+}
+
+#shopping-cart-total-value {
+    display: inline;
+}
+
+#shopping-cart-total img {
+    width: 6vw;
+    margin-top: 1.5vh;
+}

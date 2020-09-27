@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body {
+    font-family: 'Abel', sans-serif;
+    margin: 0px;
+    background-color: #191D21;
+    color: #A3F7BF;
+    cursor: url("../Icons/cursor32.png") 7 7, auto;
+}
+
+#games-body {
+    padding: 0% 25% 0% 25%;
+}
+
+#games-title {
+    font-size: 1.25vw;
+}
+
+.games-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 1% 5%;
+    cursor: pointer;
+}
+
+.games-item img {
+    width: 12%;
+    flex: 1 1 100px;
+}
+
+.games-item-info {
+    width: 55%;
+    font-size: 1.25vw;
+    flex: 1 1 465px;
+    padding-left: 5%;
+}
+
+.games-item-info p:nth-child(1) {
+    margin-top: 0%;
+}
+
+.games-item-price {
+    display: inline;
+}
+
+.games-horizontal-rule {
+    border-color: #A3F7BF;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    cursor: url("../Icons/cursor32.png") 7 7, auto;
+}
+
+body {
+    margin: 0px;
+    background-color: #191D21;
+    color: #A3F7BF;
+    font-family: 'Abel', sans-serif;
+}
+
+table{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+    width:50%;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 5px 5px 5px 8px;
+    border-radius: 5px;
+    background-color:rgba(67, 80, 85, 0.7);
+}
+
+td{
+    padding-left: 3%;
+    border-radius: 5px;
+    background-color:rgba(149, 174, 184, 0.7);
+}
+
+#contact-title-bar{
+    font-size: 48px;
+    -webkit-animation: titleGlow 1.5s ease-in-out infinite alternate;
+    -moz-animation: titleGlow 1.5s ease-in-out infinite alternate;
+    animation: titleGlow 1.5s ease-in-out infinite alternate;
+
+}
+
+#contact-subtitle{
+    font-size: 24px;
+}
+
+#contact-body {
+    text-align: center;
+}
+
+@-webkit-keyframes titleGlow {
+    from {
+      text-shadow: 0 0 10px #A3F7BF, 0 0 20px #A3F7BF, 0 0 30px #A3F7BF, 0 0 40px #29A19C ;
+    }
+    to {
+      text-shadow: 0 0 20px #29A19C, 0 0 30px #29A19C, 0 0 40px #29A19C ;
+    }
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    cursor: url("../Icons/cursor32.png") 7 7, auto;
+}
+
+body{
+    margin: 0px;
+    background-color: #191D21;
+    color: #A3F7BF;
+    font-family: 'Abel', sans-serif;
+}
+
+#faq-title{
+text-align: center;
+font-size: 7vw;
+margin: auto;
+color: #A3F7BF;
+-webkit-animation: glow 2.5s ease-in-out infinite alternate;
+-moz-animation: glow 2.5s ease-in-out infinite alternate;
+animation: glow 2.5s ease-in-out infinite alternate;
+}
+
+#faq-box{  
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+    width: 80%;
+    font-size: 100%;
+}
+
+.question-box{
+    text-align: left;
+}
+
+.question{
+    font-size: 2vw;
+    font-weight: 750;
+    cursor: url("../Icons/cursor32.png") 7 7, auto;
+    outline: none;
+    border: none;
+    text-align: left;
+}
+
+.answer{
+    display: none;
+    overflow: hidden;
+    font-size: 1.35vw;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #A3F7BF, 0 0 20px #A3F7BF;
+    }
+    to {
+        text-shadow: 0 0 10px #29A19C, 0 0 20px #29A19C;
+    }
+}
+
+.question:hover {
+    background-color: #20252b;
+}
+
+  
+.question:after {
+    content: '\002B';
+    color:#A3F7BF;
+    font-weight: bold;
+    float: right;
+    -webkit-animation: glow 2.5s ease-in-out infinite alternate;
+    -moz-animation: glow 2.5s ease-in-out infinite alternate;
+    animation: glow 2.5s ease-in-out infinite alternate;
+    margin-left: 5px;
+}
+  
+  .active:after {
+    content: "\2212";
+}

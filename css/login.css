@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    cursor: url("../Icons/cursor32.png") 7 7, auto;
+}
+
+body{
+    margin: 0px;
+    background-color: #191D21;
+    color: #A3F7BF;
+    font-family: 'Abel', sans-serif;
+}
+
+#title{
+    text-align: center; 
+    font-size: 35px; 
+    -webkit-animation: titleGlow 1.5s ease-in-out infinite alternate;
+    -moz-animation: titleGlow 1.5s ease-in-out infinite alternate;
+    animation: titleGlow 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes titleGlow {
+    from {
+      text-shadow: 0 0 10px #A3F7BF, 0 0 20px #A3F7BF, 0 0 30px #A3F7BF, 0 0 40px #29A19C ;
+    }
+    to {
+      text-shadow: 0 0 20px #29A19C, 0 0 30px #29A19C, 0 0 40px #29A19C ;
+    }
+}
+
+#form_box{
+    width: 450px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.input_field{
+    width: 434px;
+    margin-left: auto;
+    border: none;
+    margin-top: 10px;
+    font-size: 25px;
+    min-height: 52px;
+    background: #A3F7BF;
+    box-shadow: 0px 0px 25px #29A19C;
+    border-radius: 223px;
+    outline: none;
+    padding-left: 15px;
+    -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+    -moz-animation: glow 1.5s ease-in-out infinite alternate;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+#LoginBacon {
+ text-align: center;
+ cursor: pointer;
+ border: 0; 
+ background: transparent;
+}
+
+#forget-password-link {
+    text-decoration: none;
+    transition: text-shadow 0.6s ease;
+    color: #A3F7BF;
+    font-size: 23px;
+    margin-top: 5px;
+}
+
+#forget-password-link:visited {
+    color: #A3F7BF;
+}
+
+#forget-password-link:hover {
+    text-shadow: 0 0 30px #A3F7BF;
+}
+
+#forget-password-link:active {
+    text-shadow: 0 0 30px #A3F7BF;
+}
+
+#here{ 
+    font-size: 25px;
+    text-decoration: none;
+    color:#A3F7BF;     
+    transition: text-shadow 0.6s ease;
+}
+
+#here:visited {
+    color:#A3F7BF;
+} 
+
+#here:hover {
+    color:#A3F7BF;
+    text-shadow: 0 0 6px #A3F7BF, 0 0 30px #A3F7BF, 0 0 50px #A3F7BF;
+} 

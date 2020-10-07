@@ -30,7 +30,7 @@
 
             <p style="text-align: center;">
                 <button id="LoginBacon" type="submit">
-                    <img src="Icons/LoginBacon.png" width="230" height="110" alt="submit" />
+                    <img src="icons/LoginBacon.png" width="230" height="110" alt="submit" />
                 </button>
             </p>
         </form>  

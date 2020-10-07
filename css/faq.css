@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 *{
-    cursor: url("../Icons/cursor32.png") 7 7, auto;
+    cursor: url("../icons/cursor32.png") 7 7, auto;
 }
 
 body{
@@ -36,7 +36,7 @@ animation: glow 2.5s ease-in-out infinite alternate;
 .question{
     font-size: 2vw;
     font-weight: 750;
-    cursor: url("../Icons/cursor32.png") 7 7, auto;
+    cursor: url("../icons/cursor32.png") 7 7, auto;
     outline: none;
     border: none;
     text-align: left;

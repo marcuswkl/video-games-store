@@ -5,7 +5,7 @@ body {
     margin: 0px;
     background-color: #191D21;
     color: #A3F7BF;
-    cursor: url("../Icons/cursor32.png") 7 7, auto;
+    cursor: url("../icons/cursor32.png") 7 7, auto;
 }
 
 #games-body {

@@ -19,7 +19,7 @@
                 <input id="email" class="input_field" name="email" type="email" size="31" required>
                 <p style="text-align: center;">
                     <button id="SubmitBacon" type="submit" name="Submit">
-                        <img src="Icons/SubmitBacon.png" width="230" height="110" alt="submit" />
+                        <img src="icons/SubmitBacon.png" width="230" height="110" alt="submit" />
                     </button>
                 </p>
             </form>

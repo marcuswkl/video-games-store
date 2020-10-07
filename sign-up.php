@@ -59,7 +59,7 @@
             
             <p style="text-align: center;">
                 <button id="RegisterBacon" type="submit" name="Register" disabled>
-                    <img src="Icons/RegisterBacon.png" width="230" height="110" alt="submit" />
+                    <img src="icons/RegisterBacon.png" width="230" height="110" alt="submit" />
                 </button>
             </p>
         </form>  

@@ -6,7 +6,7 @@
 	<body>
 		<nav class="nav-header">
 			
-		<a href="index.php" id="index-link"><img class="logo" src ="Icons/baycon.png" id="baycon-logo" alt="logo"></a>
+		<a href="index.php" id="index-link"><img class="logo" src ="icons/baycon.png" id="baycon-logo" alt="logo"></a>
 			
 		<div class="link-flex">
 			<a href="sign-up.php" id="sign-up">SIGN UP</a>

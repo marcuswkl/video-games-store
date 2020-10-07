@@ -69,7 +69,7 @@
                 cols="30" rows="5" required></textarea>
                 <p style="text-align: center;">
                     <button id="SubmitBacon" type="submit" name="Submit">
-                        <img src="Icons/SubmitBacon.png" width="230" height="110" alt="submit"/>
+                        <img src="icons/SubmitBacon.png" width="230" height="110" alt="submit"/>
                     </button>
                 </p>
                 <input id="email" class="input_field" name="email" type="text" value="<?php echo "$emailDirty"; ?>">

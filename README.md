@@ -1,4 +1,4 @@
-# webdesign_ecommerce
+# video-games-store
 
 You are required to develop an E-commerce website that demonstrates the following:
 - User Registration
